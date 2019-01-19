@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.951,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.702,D:\work\DataSnapMobileServer\Unit2.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.307,D:\work\DataSnapMobileServer\DataSnapMobileServer.dproj=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.031,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.702,D:\work\DataSnapMobileServer\Unit2.dfm=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.238,D:\work\DataSnapMobileServer\ServerMethodsUnit1.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.202,D:\work\DataSnapMobileServer\ServerContainerUnit1.dfm=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.627,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.839,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.102,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerConst1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.226,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.202,D:\work\DataSnapMobileServer\ServerContainerUnit1.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.238,D:\work\DataSnapMobileServer\ServerMethodsUnit1.dfm=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.175,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

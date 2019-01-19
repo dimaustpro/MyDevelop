@@ -1,0 +1,7 @@
+inherited Form3_Windows: TForm3_Windows
+  DesignerMasterStyle = 0
+  inherited MemoLog: TMemo
+    Viewport.Width = 329.000000000000000000
+    Viewport.Height = 217.000000000000000000
+  end
+end

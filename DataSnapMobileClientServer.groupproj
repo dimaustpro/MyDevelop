@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0F5BA63D-EF9D-40E8-B632-97223C98B9E4}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DataSnapMobileServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DataSnapMobileClient.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DataSnapMobileServer">
+        <MSBuild Projects="DataSnapMobileServer.dproj"/>
+    </Target>
+    <Target Name="DataSnapMobileServer:Clean">
+        <MSBuild Projects="DataSnapMobileServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataSnapMobileServer:Make">
+        <MSBuild Projects="DataSnapMobileServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DataSnapMobileClient">
+        <MSBuild Projects="DataSnapMobileClient.dproj"/>
+    </Target>
+    <Target Name="DataSnapMobileClient:Clean">
+        <MSBuild Projects="DataSnapMobileClient.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DataSnapMobileClient:Make">
+        <MSBuild Projects="DataSnapMobileClient.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DataSnapMobileServer;DataSnapMobileClient"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DataSnapMobileServer:Clean;DataSnapMobileClient:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DataSnapMobileServer:Make;DataSnapMobileClient:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,9 @@
+inherited Form3_LgXhdpiPh: TForm3_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited MemoLog: TMemo
+    Viewport.Width = 329.000000000000000000
+    Viewport.Height = 217.000000000000000000
+  end
+end

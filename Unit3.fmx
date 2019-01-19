@@ -1,0 +1,56 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 374
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnShow = FormShow
+  OnSaveState = FormSaveState
+  DesignerMasterStyle = 3
+  object MemoLog: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 321.000000000000000000
+    Viewport.Height = 209.000000000000000000
+  end
+  object ButtonBroadcast: TButton
+    Position.X = 8.000000000000000000
+    Position.Y = 232.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Broadcast to Channel'
+    OnClick = ButtonBroadcastClick
+  end
+  object EditMsg: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 8.000000000000000000
+    Position.Y = 256.000000000000000000
+    Size.Width = 329.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object DSClientCallbackChannelManager1: TDSClientCallbackChannelManager
+    DSHostname = '192.168.0.101'
+    DSPort = '211'
+    CommunicationProtocol = 'tcp/ip'
+    ChannelName = 'DelphiLabsChannel'
+    ManagerId = '781205.853565.52045'
+    Left = 16
+    Top = 448
+  end
+end

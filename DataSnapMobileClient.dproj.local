@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.807,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.852,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.527,=D:\work\DataSnapMobileServer\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.049,D:\work\DataSnapMobileServer\Unit1.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.133,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.795,D:\work\DataSnapMobileServer\ClientClassesUnit1.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,D:\work\DataSnapMobileServer\ClientModuleUnit1.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.951,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.673,D:\work\DataSnapMobileServer\Unit3.fmx=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.854,D:\work\DataSnapMobileServer\DataSnapMobileClient.dproj=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\DataSnapMobileClient.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.672,D:\work\DataSnapMobileServer\Unit3.pas=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.226,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.457,D:\work\DataSnapMobileServer\ClientModuleUnit1.dfm=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.627,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.150,C:\Users\Admin\Documents\Embarcadero\Studio\Projects\DataSnapMobileClient.dproj=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.102,=C:\Users\Admin\Documents\Embarcadero\Studio\Projects\ServerConst1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
